@@ -1,0 +1,53 @@
+# targets.yaml: what to look for. Every key is optional except preset or companies.
+
+# Start from a preset in presets/ (software, data_ml, engineering, robotics_embedded).
+# The preset supplies title filters, keywords and a verified company list; anything
+# you set below overrides it, and your companies are ADDED to the preset's.
+preset: software
+
+# intern | new_grad | early (0 to 3 years) | mid | senior
+# Sets built-in title filters (e.g. new_grad drops Senior/Staff/Lead/II/III titles).
+# Community new-grad / intern lists are only pulled for intern and new_grad.
+seniority: new_grad
+
+# Drop roles whose JD asks for more years than this (default depends on seniority).
+max_years: 2
+
+# Work authorization. One of:
+#   us_citizen_or_pr   US citizen or green card holder: no visa filtering
+#   f1_opt             F-1 student on OPT / STEM OPT. Blocks: US citizenship, security clearance,
+#                      ITAR / export control, "US person", green card. Does NOT block
+#                      "no sponsorship" (OPT needs no sponsorship; it is noted for H-1B later).
+#   needs_sponsorship  needs H-1B (or similar) sponsorship now: also blocks "no sponsorship"
+#   other              only citizenship / clearance / US-person requirements block
+work_auth: f1_opt
+
+# Only roles first seen (or posted) within this many days.
+fresh_days: 14
+
+locations:
+  remote_ok: true
+  preferred_states: [OH, IL, NY]     # ranked a little higher; others still shown
+  # only_states: [OH]               # uncomment to restrict to these states (remote still allowed)
+  # anywhere: true                  # uncomment to allow non-US locations
+
+# Your own regexes, applied on top of the preset's (yours replace the preset's if set).
+# title_include: ["software engineer", "backend", "developer"]
+# title_exclude: ["sales", "recruiter"]
+
+# Extra keywords that should push a role up (matched in title + JD).
+keywords: [Python, Java, backend, API]
+
+# Companies you never want to see (substring of name or slug, case-insensitive).
+company_blocklist: []
+
+# Extra company boards to pull, added to the preset's list.
+# board: greenhouse | lever | ashby. The slug is the last part of the board URL:
+#   boards.greenhouse.io/<slug>   jobs.lever.co/<slug>   jobs.ashbyhq.com/<slug>
+companies:
+  # - {name: Acme, board: greenhouse, slug: acme}
+
+# Rows from defense / clearance-heavy employers (list in jobkit/workauth.py) are moved to the
+# "flagged" section for every work_auth mode except us_citizen_or_pr. Add names, or turn it off.
+flag_defense_employers: true
+defense_employers: []

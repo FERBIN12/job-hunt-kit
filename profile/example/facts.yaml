@@ -1,0 +1,77 @@
+# facts.yaml: the ONLY source of truth for your resume and cover letters.
+#
+# Everything here is a FAKE example person. Replace all of it with your own facts.
+# Rules:
+#   - Write only what is true and what you could explain in an interview.
+#   - Every skill, tool and number on a tailored resume must appear somewhere in this file,
+#     or the honesty check fails the run. To claim something new, add it here first.
+#   - Bullets: start with a verb, say what you did, how, and a real result if you have one.
+#   - No long dashes (use commas or "to"). Keep each bullet to one or two lines.
+
+contact:
+  name: Alex Example
+  email: alex.example@example.com
+  phone: "555-555-0100"
+  location: Columbus, OH
+  links:
+    linkedin: linkedin.com/in/alex-example-000
+    github: github.com/alex-example-000
+
+# One or more summaries. tailor picks the one that matches the job best. Optional.
+summaries:
+  - "Computer science new grad (May 2027) who builds backend services in Python and Java, with tested REST APIs on AWS."
+  - "Computer science new grad (May 2027) who builds data pipelines in Python and SQL and turns them into clear dashboards."
+
+education:
+  - school: Example State University
+    location: Columbus, OH
+    degree: Bachelor of Science in Computer Science
+    dates: Aug 2023 - May 2027
+    gpa: "3.6/4.0"
+    coursework: [Data Structures, Algorithms, Operating Systems, Databases, Computer Networks]
+
+# Group skills however you like; the group names become the labels on the resume.
+skills:
+  Languages: [Python, Java, SQL, JavaScript, TypeScript]
+  Frameworks: [React, Flask, Spring Boot, pandas, pytest]
+  Tools & Cloud: [Git, GitHub Actions, Docker, AWS (EC2, S3, Lambda), Linux, PostgreSQL]
+
+experience:
+  - title: Software Engineering Intern
+    org: Example Logistics Co.
+    location: Columbus, OH
+    dates: May 2026 - Aug 2026
+    bullets:
+      - "Built a REST API in Java and Spring Boot that lets warehouse staff look up shipment status, serving 1,200 requests a day."
+      - "Cut a nightly PostgreSQL report from 40 minutes to 6 minutes by adding indexes and rewriting two joins."
+      - "Wrote 85 unit tests with JUnit and set up GitHub Actions so every pull request runs them."
+      - "Worked with two other interns and a product manager in weekly sprints, and documented the API for the support team."
+  - title: Teaching Assistant, Data Structures
+    org: Example State University
+    location: Columbus, OH
+    dates: Jan 2025 - May 2026
+    bullets:
+      - "Held weekly office hours for 60 students and graded programming assignments in Java."
+      - "Wrote Python scripts that auto-check student submissions, saving the course staff about 5 hours a week."
+
+projects:
+  - name: Campus Bus Tracker
+    dates: Fall 2025
+    link: github.com/alex-example-000/bus-tracker
+    bullets:
+      - "Built a React and TypeScript web app that shows live bus positions from the city's open data feed."
+      - "Deployed the Flask backend in Docker on AWS EC2 and stored trip history in PostgreSQL."
+  - name: Grocery Price Dashboard
+    dates: Spring 2025
+    bullets:
+      - "Collected 3 months of public grocery price data with Python and pandas and charted price trends."
+  - name: Study Group Matcher
+    dates: Fall 2024
+    bullets:
+      - "Wrote a Python service on AWS Lambda that matches students into study groups by schedule, used by 150 students."
+
+# Optional extra sections, rendered as bullet lists.
+extra:
+  - heading: Awards
+    items:
+      - "Dean's List, 4 semesters"

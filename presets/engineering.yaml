@@ -1,0 +1,145 @@
+# preset: engineering
+# General engineering: mechanical, electrical, industrial, manufacturing, civil / construction, energy. Coverage of civil and construction firms on public boards is thin; add your own companies.
+# Every company board below was checked live on 2026-11-18 (public API returned JSON with openings).
+# Boards move: if discover reports a BROKEN slug, fix or remove it here (see CONTRIBUTING.md).
+# No defense or ITAR-focused companies. Per-role work-auth checks still run on every JD.
+title_include:
+- mechanical
+- electrical
+- industrial
+- manufacturing
+- process
+- civil
+- structural
+- construction
+- quality
+- reliability
+- hardware
+- design engineer
+- test engineer
+- product engineer
+- systems engineer
+- field engineer
+- project engineer
+- facilities
+- power
+- battery
+- thermal
+- materials
+- supply chain
+- operations engineer
+- engineer
+title_exclude:
+- software
+- back[- ]?end|front[- ]?end|full[- ]?stack|\bdevops\b|\bsre\b|data engineer|machine learning
+- sales
+- account
+- recruit
+- marketing
+- legal
+- counsel
+- data scientist
+- manager
+- director
+- technician
+keywords:
+- CAD
+- SolidWorks
+- manufacturing
+- FEA
+- GD&T
+- lean
+- PLC
+- circuit design
+- MATLAB
+companies:
+- name: Zipline
+  board: greenhouse
+  slug: flyzipline
+- name: Lucid Motors
+  board: greenhouse
+  slug: lucidmotors
+- name: Redwood Materials
+  board: greenhouse
+  slug: redwoodmaterials
+- name: Fervo Energy
+  board: greenhouse
+  slug: fervoenergy
+- name: Verkada
+  board: greenhouse
+  slug: verkada
+- name: Peloton
+  board: greenhouse
+  slug: peloton
+- name: Tulip
+  board: greenhouse
+  slug: tulip
+- name: Xometry
+  board: greenhouse
+  slug: xometry
+- name: Fictiv
+  board: greenhouse
+  slug: fictiv
+- name: Formlabs
+  board: greenhouse
+  slug: formlabs
+- name: Commonwealth Fusion Systems
+  board: lever
+  slug: cfsenergy
+- name: Twelve
+  board: ashby
+  slug: twelve
+- name: ICON
+  board: ashby
+  slug: icon
+- name: Harbinger Motors
+  board: greenhouse
+  slug: harbingermotors
+- name: Quaise Energy
+  board: greenhouse
+  slug: quaise
+- name: Solid Power
+  board: greenhouse
+  slug: solidpower
+- name: PsiQuantum
+  board: greenhouse
+  slug: psiquantum
+- name: Samsung Semiconductor
+  board: greenhouse
+  slug: samsungsemiconductor
+- name: Astera Labs
+  board: greenhouse
+  slug: asteralabs
+- name: ChargePoint
+  board: greenhouse
+  slug: chargepoint
+- name: Quilt
+  board: greenhouse
+  slug: quilt
+- name: OpenSpace
+  board: greenhouse
+  slug: openspace
+- name: Fieldwire
+  board: greenhouse
+  slug: fieldwire
+- name: Formic
+  board: greenhouse
+  slug: formic
+- name: Pivot Bio
+  board: greenhouse
+  slug: pivotbio
+- name: Ginkgo Bioworks
+  board: greenhouse
+  slug: ginkgobioworks
+- name: Lightmatter
+  board: greenhouse
+  slug: lightmatter
+- name: Tenstorrent
+  board: greenhouse
+  slug: tenstorrent
+- name: Samsara
+  board: greenhouse
+  slug: samsara
+- name: Waymo
+  board: greenhouse
+  slug: waymo

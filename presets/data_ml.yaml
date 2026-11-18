@@ -1,0 +1,128 @@
+# preset: data_ml
+# Data and machine learning: data science, data engineering, analytics, ML engineering, applied AI.
+# Every company board below was checked live on 2026-11-18 (public API returned JSON with openings).
+# Boards move: if discover reports a BROKEN slug, fix or remove it here (see CONTRIBUTING.md).
+# No defense or ITAR-focused companies. Per-role work-auth checks still run on every JD.
+title_include:
+- data
+- machine learning
+- \bml\b
+- \bai\b
+- analytics
+- analyst
+- scientist
+- research engineer
+- applied (ai|ml|scientist)
+- \bnlp\b
+- llm
+- deep learning
+title_exclude:
+- sales
+- account
+- recruit
+- marketing
+- legal
+- counsel
+- data center (technician|operations)
+- manager
+- director
+keywords:
+- Python
+- SQL
+- machine learning
+- statistics
+- PyTorch
+- Spark
+- data pipeline
+- LLM
+companies:
+- name: Databricks
+  board: greenhouse
+  slug: databricks
+- name: Anthropic
+  board: greenhouse
+  slug: anthropic
+- name: OpenAI
+  board: ashby
+  slug: openai
+- name: Perplexity
+  board: ashby
+  slug: perplexity
+- name: Cursor
+  board: ashby
+  slug: cursor
+- name: Cohere
+  board: ashby
+  slug: cohere
+- name: Pinecone
+  board: ashby
+  slug: pinecone
+- name: Anyscale
+  board: ashby
+  slug: anyscale
+- name: ElevenLabs
+  board: ashby
+  slug: elevenlabs
+- name: Harvey
+  board: ashby
+  slug: harvey
+- name: Glean
+  board: greenhouse
+  slug: gleanwork
+- name: Snorkel AI
+  board: greenhouse
+  slug: snorkelai
+- name: Fivetran
+  board: greenhouse
+  slug: fivetran
+- name: Airbyte
+  board: ashby
+  slug: airbyte
+- name: Hex
+  board: ashby
+  slug: hex
+- name: Modal
+  board: ashby
+  slug: modal
+- name: Baseten
+  board: ashby
+  slug: baseten
+- name: Sierra
+  board: ashby
+  slug: sierra
+- name: Decagon
+  board: ashby
+  slug: decagon
+- name: Writer
+  board: ashby
+  slug: writer
+- name: Labelbox
+  board: greenhouse
+  slug: labelbox
+- name: Abridge
+  board: ashby
+  slug: abridge
+- name: Mixpanel
+  board: greenhouse
+  slug: mixpanel
+- name: Datadog
+  board: greenhouse
+  slug: datadog
+- name: MongoDB
+  board: greenhouse
+  slug: mongodb
+- name: Elastic
+  board: greenhouse
+  slug: elastic
+- name: SambaNova
+  board: greenhouse
+  slug: sambanovasystems
+- name: Crusoe
+  board: ashby
+  slug: crusoe
+- name: Instacart
+  board: greenhouse
+  slug: instacart
+- name: Duolingo
+  board: greenhouse
+  slug: duolingo

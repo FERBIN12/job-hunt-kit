@@ -1,0 +1,18 @@
+[project]
+name = "job-hunt-kit"
+version = "0.1.0"
+description = "Prep-only job hunt kit: find fresh roles, tailor honestly, draft outreach. Never submits or sends."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0", "python-docx>=1.1"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+pdf = ["docx2pdf>=0.1.8"]
+
+[tool.setuptools]
+packages = ["jobkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

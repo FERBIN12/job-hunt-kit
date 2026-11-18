@@ -1,0 +1,132 @@
+# preset: robotics_embedded
+# Robotics, autonomy, embedded and firmware: robotics software, controls, perception, embedded, hardware test.
+# Every company board below was checked live on 2026-11-18 (public API returned JSON with openings).
+# Boards move: if discover reports a BROKEN slug, fix or remove it here (see CONTRIBUTING.md).
+# No defense or ITAR-focused companies. Per-role work-auth checks still run on every JD.
+title_include:
+- robot
+- autonom
+- embedded
+- firmware
+- controls?
+- perception
+- motion planning
+- \bslam\b
+- simulation
+- hardware
+- mechatronic
+- systems engineer
+- test engineer
+- integration
+- software engineer
+- electrical
+title_exclude:
+- sales
+- account
+- recruit
+- marketing
+- legal
+- counsel
+- manager
+- director
+- technician
+keywords:
+- ROS
+- C++
+- Python
+- embedded
+- controls
+- perception
+- simulation
+- Linux
+companies:
+- name: Waymo
+  board: greenhouse
+  slug: waymo
+- name: Nuro
+  board: greenhouse
+  slug: nuro
+- name: Motional
+  board: greenhouse
+  slug: motional
+- name: Zoox
+  board: lever
+  slug: zoox
+- name: Figure
+  board: greenhouse
+  slug: figureai
+- name: Agility Robotics
+  board: greenhouse
+  slug: agilityrobotics
+- name: Apptronik
+  board: greenhouse
+  slug: apptronik
+- name: 1X
+  board: ashby
+  slug: 1x
+- name: Bedrock Robotics
+  board: ashby
+  slug: bedrock-robotics
+- name: Nimble Robotics
+  board: greenhouse
+  slug: nimblerobotics
+- name: Dexory
+  board: greenhouse
+  slug: dexory
+- name: Ambi Robotics
+  board: lever
+  slug: ambirobotics
+- name: Locus Robotics
+  board: greenhouse
+  slug: locusrobotics
+- name: Physical Intelligence
+  board: ashby
+  slug: physicalintelligence
+- name: Dyna Robotics
+  board: ashby
+  slug: dyna-robotics
+- name: Waabi
+  board: lever
+  slug: waabi
+- name: Outrider
+  board: greenhouse
+  slug: outrider
+- name: Diligent Robotics
+  board: greenhouse
+  slug: diligentrobotics
+- name: Viam
+  board: greenhouse
+  slug: viamrobotics
+- name: Foxglove
+  board: ashby
+  slug: foxglove
+- name: Formic
+  board: greenhouse
+  slug: formic
+- name: Collaborative Robotics
+  board: ashby
+  slug: cobot
+- name: Torc Robotics
+  board: greenhouse
+  slug: torcrobotics
+- name: Samsara
+  board: greenhouse
+  slug: samsara
+- name: Verkada
+  board: greenhouse
+  slug: verkada
+- name: Zipline
+  board: greenhouse
+  slug: flyzipline
+- name: Neuralink
+  board: greenhouse
+  slug: neuralink
+- name: Tenstorrent
+  board: greenhouse
+  slug: tenstorrent
+- name: Formlabs
+  board: greenhouse
+  slug: formlabs
+- name: Tulip
+  board: greenhouse
+  slug: tulip

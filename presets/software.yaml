@@ -1,0 +1,154 @@
+# preset: software
+# Software engineering: backend, frontend, full stack, mobile, cloud, infrastructure, SRE.
+# Every company board below was checked live on 2026-11-18 (public API returned JSON with openings).
+# Boards move: if discover reports a BROKEN slug, fix or remove it here (see CONTRIBUTING.md).
+# No defense or ITAR-focused companies. Per-role work-auth checks still run on every JD.
+title_include:
+- software
+- engineer
+- developer
+- \bsde\b
+- \bswe\b
+- full[- ]?stack
+- back[- ]?end
+- front[- ]?end
+- mobile
+- \bios\b
+- android
+- cloud
+- infrastructure
+- platform
+- \bsre\b|site reliability
+- devops
+title_exclude:
+- sales
+- account
+- recruit
+- marketing
+- legal
+- counsel
+- designer
+- support specialist
+- solutions? (consultant|architect)
+- manager
+- hardware
+- mechanical
+- electrical
+keywords:
+- Python
+- Java
+- Go
+- TypeScript
+- backend
+- distributed systems
+- API
+- cloud
+companies:
+- name: Stripe
+  board: greenhouse
+  slug: stripe
+- name: Airbnb
+  board: greenhouse
+  slug: airbnb
+- name: Figma
+  board: greenhouse
+  slug: figma
+- name: Robinhood
+  board: greenhouse
+  slug: robinhood
+- name: Coinbase
+  board: greenhouse
+  slug: coinbase
+- name: Dropbox
+  board: greenhouse
+  slug: dropbox
+- name: Pinterest
+  board: greenhouse
+  slug: pinterest
+- name: Lyft
+  board: greenhouse
+  slug: lyft
+- name: Instacart
+  board: greenhouse
+  slug: instacart
+- name: Reddit
+  board: greenhouse
+  slug: reddit
+- name: Discord
+  board: greenhouse
+  slug: discord
+- name: Cloudflare
+  board: greenhouse
+  slug: cloudflare
+- name: Datadog
+  board: greenhouse
+  slug: datadog
+- name: MongoDB
+  board: greenhouse
+  slug: mongodb
+- name: Elastic
+  board: greenhouse
+  slug: elastic
+- name: GitLab
+  board: greenhouse
+  slug: gitlab
+- name: Asana
+  board: greenhouse
+  slug: asana
+- name: Twilio
+  board: greenhouse
+  slug: twilio
+- name: Okta
+  board: greenhouse
+  slug: okta
+- name: Brex
+  board: greenhouse
+  slug: brex
+- name: Affirm
+  board: greenhouse
+  slug: affirm
+- name: Gusto
+  board: greenhouse
+  slug: gusto
+- name: Chime
+  board: greenhouse
+  slug: chime
+- name: Roblox
+  board: greenhouse
+  slug: roblox
+- name: Duolingo
+  board: greenhouse
+  slug: duolingo
+- name: Toast
+  board: greenhouse
+  slug: toast
+- name: DoorDash
+  board: greenhouse
+  slug: doordashusa
+- name: Vercel
+  board: greenhouse
+  slug: vercel
+- name: Carta
+  board: greenhouse
+  slug: carta
+- name: Block
+  board: greenhouse
+  slug: block
+- name: Spotify
+  board: lever
+  slug: spotify
+- name: Notion
+  board: ashby
+  slug: notion
+- name: Ramp
+  board: ashby
+  slug: ramp
+- name: Linear
+  board: ashby
+  slug: linear
+- name: Supabase
+  board: ashby
+  slug: supabase
+- name: Replit
+  board: ashby
+  slug: replit
